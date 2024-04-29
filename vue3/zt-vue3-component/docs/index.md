@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "123"
-  text: "测试用啦！"
+  name: "zt-ui"
+  text: "常用的组件库"
   tagline: zhangtaouc
   actions:
     - theme: brand
@@ -16,9 +16,9 @@ hero:
 
 features:
   - title: 特点1
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 主要用于开发练手用
   - title: 特点2
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 个人项目中常用的组件都包含在这
   - title: 特点3
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 避免重复的开发
 ---

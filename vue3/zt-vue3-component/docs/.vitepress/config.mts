@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "张涛",
+  title: "zt-ui",
   description: "个人简介咯！",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -38,7 +38,7 @@ export default defineConfig({
     ],
     // 页脚
     footer: {
-      message: "一个乱七八糟的组件库~",
+      message: "一个简简单单的组件库~",
       copyright: "Copyright © 2024-present zhangtaouc",
     },
 
@@ -50,5 +50,5 @@ export default defineConfig({
       provider: "local",
     },
   },
-  base: "/",
+  base: "/h5/component",
 });
