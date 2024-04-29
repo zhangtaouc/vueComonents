@@ -8,11 +8,11 @@ hero:
   tagline: zhangtaouc
   actions:
     - theme: brand
-      text: 查看
+      text: 快速开始吧
       link: /markdown-examples
     - theme: alt
-      text: 其他
-      link: /api-examples
+      text: 个人主页
+      link: https://www.zhangtaoo.cn/h5/me/
 
 features:
   - title: 特点1
