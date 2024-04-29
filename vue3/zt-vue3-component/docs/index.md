@@ -1,11 +1,12 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+# https://vitepress.dev/vitepress-logo-large.webp
 layout: home
 
 hero:
   name: "zt-ui"
   text: "常用的组件库"
   tagline: zhangtaouc
+  image: https://vitepress.dev/vitepress-logo-large.webp
   actions:
     - theme: brand
       text: 快速开始吧
