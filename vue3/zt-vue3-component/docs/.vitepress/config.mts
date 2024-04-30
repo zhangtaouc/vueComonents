@@ -1,31 +1,32 @@
-import { defineConfig } from "vitepress";
-import { sidebar } from "../tools/pageSidebar";
-import { nav } from "../tools/headerNav";
-sidebar;
+import { defineConfig } from 'vitepress'
+import { sidebar } from '../tools/pageSidebar'
+import { nav } from '../tools/headerNav'
+sidebar
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "zt-ui",
-  description: "个人简介咯！",
+  title: 'zt-ui',
+  description: '个人简介咯！',
+  lastUpdated: true,
+  lang: 'zh-CN',
+  base: '/h5/component',
+  head: [['link', { rel: 'icon', href: 'images/ui.cn.svg' }]],
   // 主题是否是暗黑
-  appearance: "dark",
+  appearance: 'dark',
   themeConfig: {
     // 标题上面的logo
-    logo: "/images/ui.cn.svg",
+    logo: '/images/ui.cn.svg',
     nav,
     sidebar,
     // 页脚
     footer: {
-      message: "一个简简单单的组件库~",
-      copyright: "Copyright © 2024-present zhangtaouc",
+      message: '一个简简单单的组件库~',
+      copyright: 'Copyright © 2024-present zhangtaouc'
     },
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
 
     search: {
-      provider: "local",
-    },
-  },
-  base: "/h5/component",
-});
+      provider: 'local'
+    }
+  }
+})

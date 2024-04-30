@@ -1,7 +1,6 @@
 // .vitepress/theme/index.js
 import DefaultTheme from 'vitepress/theme'
-import { ZTBtn } from '../../../packages'
-const components = { ZTBtn }
+import { components } from '../../../packages'
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {

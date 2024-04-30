@@ -3,14 +3,14 @@
 layout: home
 
 hero:
-  name: "zt-ui"
-  text: "常用的组件库"
+  name: 'zt-ui'
+  text: '常用的组件库'
   tagline: zhangtaouc
   image: /images/ui.cn.svg
   actions:
     - theme: brand
       text: 快速开始吧
-      link: /markdown-examples
+      link: /pages/start
     - theme: alt
       text: 个人主页
       link: https://www.zhangtaoo.cn/h5/me/

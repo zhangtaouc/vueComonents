@@ -1,16 +1,16 @@
-import ZTBtn from "./ZTBtn/ZTBtn.vue";
+import ZTBtn from './ZTBtn/ZTBtn.vue'
 
 // 按需引入
-export { ZTBtn };
+export { ZTBtn }
 
-const component = [ZTBtn];
+export const components = [ZTBtn]
 
 const ZTUI = {
   install(App) {
-    component.forEach((item) => {
-      App.component(item.name, item);
-    });
-  },
-};
+    components.forEach(item => {
+      App.component(item.name, item)
+    })
+  }
+}
 
-export default ZTUI;
+export default ZTUI
