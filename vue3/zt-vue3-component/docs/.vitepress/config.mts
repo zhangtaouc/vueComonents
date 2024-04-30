@@ -9,6 +9,7 @@ export default defineConfig({
   lastUpdated: true,
   lang: 'zh-CN',
   base: '/h5/component',
+  // 浏览器那的logo
   head: [['link', { rel: 'icon', href: 'images/ui.cn.svg' }]],
   // 主题是否是暗黑
   appearance: 'dark',
