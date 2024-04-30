@@ -6,7 +6,7 @@ hero:
   name: "zt-ui"
   text: "常用的组件库"
   tagline: zhangtaouc
-  image: https://vitepress.dev/vitepress-logo-large.webp
+  image: /images/ui.cn.svg
   actions:
     - theme: brand
       text: 快速开始吧

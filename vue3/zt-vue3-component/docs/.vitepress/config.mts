@@ -1,41 +1,18 @@
 import { defineConfig } from "vitepress";
-
+import { sidebar } from "../tools/pageSidebar";
+import { nav } from "../tools/headerNav";
+sidebar;
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "zt-ui",
   description: "个人简介咯！",
+  // 主题是否是暗黑
+  appearance: "dark",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "首页", link: "/" },
-      {
-        text: "个人",
-        items: [
-          { text: "Item A", link: "/api-examples" },
-          { text: "Item B", link: "/api-examples" },
-          { text: "Item C", link: "/api-examples" },
-        ],
-      },
-      { text: "样例", link: "/markdown-examples" },
-    ],
-
-    sidebar: [
-      {
-        text: "组件库",
-        items: [
-          { text: "查看", link: "/markdown-examples" },
-          { text: "我的样例", link: "/api-examples" },
-        ],
-      },
-      {
-        text: "组件库",
-        collapsed: true,
-        items: [
-          { text: "查看", link: "/markdown-examples" },
-          { text: "我的样例", link: "/api-examples" },
-        ],
-      },
-    ],
+    // 标题上面的logo
+    logo: "/images/ui.cn.svg",
+    nav,
+    sidebar,
     // 页脚
     footer: {
       message: "一个简简单单的组件库~",
