@@ -1,0 +1,4 @@
+docs/.vitePress/cache
+docs/.vitePress/dist
+packages/*/dist
+.md
